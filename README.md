@@ -28,35 +28,36 @@ The ultimate Guide To Neovim and Tmux for fullstack engineers
   ```
     git clone https://github.com/powerline/powerline $HOME/powerline
   ```
+  **Set —editable option**
+  ```
+    python3 -m pip install --editable=$HOME/powerline
+  ```
+  **check whether could import powerline library**
+  ```
+    /usr/bin/python3 -c "import powerline;print(powerline.__file__)"
+  ```
+  **If this result is displayed then Ok**
+  ```
+    $HOME/powerline/powerline/__init__.py
+  ```
+  
 ※ If you are interested in fish, following installation
+
 - **Fish shell**
   ```
     brew install fish
   ```
-Install fisher
+  Install fisher
   ```
     curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
   ```
-Install [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish)
+  Install [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish)
   ```
     curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
   ```
-Install [tide](https://github.com/IlanCosman/tide)
+  Install [tide](https://github.com/IlanCosman/tide)
   ```
     fisher install IlanCosman/tide@v5
-  ```
-
-**Set —editable option**
-  ```
-    python3 -m pip install --editable=$HOME/powerline
-  ```
-**check whether could import powerline library**
-  ```
-    /usr/bin/python3 -c "import powerline;print(powerline.__file__)"
-  ```
- **If this result is displayed then Ok**
-  ```
-    $HOME/powerline/powerline/__init__.py
   ```
   
   
